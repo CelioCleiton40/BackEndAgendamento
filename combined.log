@@ -1,0 +1,63 @@
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T13:28:25.075Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T13:28:25.666Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T13:28:25.667Z"}
+{"level":"error","message":"Erro ao registrar usuário: \nInvalid `prisma.user.findUnique()` invocation in\nC:\\Users\\JW COWORKING\\Documents\\celio\\BackEndAgendamento\\src\\services\\authService.ts:16:44\n\n  13 const validatedData = validateUser(userData);\n  14 \n  15 // Verifica se o e-mail já está cadastrado\n→ 16 const existingUser = await prisma.user.findUnique(\nThe provided database string is invalid. Error parsing connection string: invalid port number in database URL. Please refer to the documentation in https://www.prisma.io/docs/reference/database-reference/connection-urls for constructing a correct connection string. In some cases, certain characters must be escaped. Please check the string for any illegal characters.","timestamp":"2025-02-04T13:29:44.420Z"}
+{"level":"error","message":"Erro ao registrar usuário: \nInvalid `prisma.user.findUnique()` invocation in\nC:\\Users\\JW COWORKING\\Documents\\celio\\BackEndAgendamento\\src\\services\\authService.ts:16:44\n\n  13 const validatedData = validateUser(userData);\n  14 \n  15 // Verifica se o e-mail já está cadastrado\n→ 16 const existingUser = await prisma.user.findUnique(\nThe provided database string is invalid. Error parsing connection string: invalid port number in database URL. Please refer to the documentation in https://www.prisma.io/docs/reference/database-reference/connection-urls for constructing a correct connection string. In some cases, certain characters must be escaped. Please check the string for any illegal characters.","timestamp":"2025-02-04T13:29:44.422Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T13:33:24.823Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T13:33:25.267Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T13:33:25.268Z"}
+{"level":"error","message":"Erro ao registrar usuário: \nInvalid `prisma.user.findUnique()` invocation in\nC:\\Users\\JW COWORKING\\Documents\\celio\\BackEndAgendamento\\src\\services\\authService.ts:16:44\n\n  13 const validatedData = validateUser(userData);\n  14 \n  15 // Verifica se o e-mail já está cadastrado\n→ 16 const existingUser = await prisma.user.findUnique(\nCan't reach database server at `localhost:5432`\n\nPlease make sure your database server is running at `localhost:5432`.","timestamp":"2025-02-04T13:33:48.765Z"}
+{"level":"error","message":"Erro ao registrar usuário: \nInvalid `prisma.user.findUnique()` invocation in\nC:\\Users\\JW COWORKING\\Documents\\celio\\BackEndAgendamento\\src\\services\\authService.ts:16:44\n\n  13 const validatedData = validateUser(userData);\n  14 \n  15 // Verifica se o e-mail já está cadastrado\n→ 16 const existingUser = await prisma.user.findUnique(\nCan't reach database server at `localhost:5432`\n\nPlease make sure your database server is running at `localhost:5432`.","timestamp":"2025-02-04T13:33:48.768Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T13:50:34.891Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T13:50:35.323Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T13:50:35.324Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T13:54:19.502Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T13:54:19.968Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T13:54:19.969Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T13:55:15.336Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T13:55:15.766Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T13:55:15.767Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T13:57:07.563Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T13:57:08.021Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T13:57:08.021Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T13:59:30.329Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T13:59:30.754Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T13:59:30.754Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T14:00:51.942Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T14:00:52.311Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T14:00:52.311Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T14:02:38.067Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T14:02:38.674Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T14:02:38.675Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T14:04:35.468Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T14:04:36.049Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T14:04:36.049Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T14:07:42.817Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T14:07:43.272Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T14:07:43.273Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T14:09:48.790Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T14:09:49.204Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T14:09:49.205Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T14:19:36.507Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T14:19:36.885Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T14:19:36.886Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T14:24:01.881Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T14:24:02.282Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T14:24:02.283Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T14:24:23.541Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T14:24:23.947Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T14:24:23.948Z"}
+{"level":"error","message":"Erro ao registrar usuário: \nInvalid `prisma.user.findUnique()` invocation in\nC:\\Users\\JW COWORKING\\Documents\\celio\\BackEndAgendamento\\src\\services\\authService.ts:16:44\n\n  13 const validatedData = validateUser(userData);\n  14 \n  15 // Verifica se o e-mail já está cadastrado\n→ 16 const existingUser = await prisma.user.findUnique(\nCan't reach database server at `localhost:5432`\n\nPlease make sure your database server is running at `localhost:5432`.","timestamp":"2025-02-04T14:33:28.573Z"}
+{"level":"error","message":"Erro ao registrar usuário: \nInvalid `prisma.user.findUnique()` invocation in\nC:\\Users\\JW COWORKING\\Documents\\celio\\BackEndAgendamento\\src\\services\\authService.ts:16:44\n\n  13 const validatedData = validateUser(userData);\n  14 \n  15 // Verifica se o e-mail já está cadastrado\n→ 16 const existingUser = await prisma.user.findUnique(\nCan't reach database server at `localhost:5432`\n\nPlease make sure your database server is running at `localhost:5432`.","timestamp":"2025-02-04T14:33:28.577Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T17:39:44.939Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T17:39:45.342Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T17:39:45.342Z"}
+{"level":"info","message":"Usuário registrado com sucesso: joao@example.com","timestamp":"2025-02-04T17:53:37.826Z"}
+{"level":"error","message":"Erro ao registrar usuário: E-mail já registrado","timestamp":"2025-02-04T18:29:39.545Z"}
+{"level":"error","message":"Erro ao registrar usuário: E-mail já registrado","timestamp":"2025-02-04T18:29:39.546Z"}
+{"level":"info","message":"Usuário registrado com sucesso: joaok@example.com","timestamp":"2025-02-04T18:29:54.835Z"}
+{"level":"error","message":"Erro na autenticação: Token não fornecido ou inválido","timestamp":"2025-02-04T18:49:50.215Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T18:54:48.511Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T18:54:48.927Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T18:54:48.928Z"}
+{"level":"info","message":"Usuário registrado com sucesso: joao8@example.com","timestamp":"2025-02-04T18:55:59.936Z"}
