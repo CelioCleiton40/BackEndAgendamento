@@ -61,3 +61,9 @@
 {"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T18:54:48.927Z"}
 {"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T18:54:48.928Z"}
 {"level":"info","message":"Usuário registrado com sucesso: joao8@example.com","timestamp":"2025-02-04T18:55:59.936Z"}
+{"level":"info","message":"Aplicação em modo development","timestamp":"2025-02-04T19:29:56.877Z"}
+{"level":"info","message":"Servidor iniciado na porta 3000","timestamp":"2025-02-04T19:29:57.282Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-02-04T19:29:57.283Z"}
+{"level":"info","message":"Login bem-sucedido para o usuário: joao8@example.com","timestamp":"2025-02-04T19:30:46.665Z"}
+{"level":"info","message":"Login bem-sucedido para o usuário: joao8@example.com","timestamp":"2025-02-04T19:31:15.915Z"}
+{"level":"info","message":"Agendamento criado: 1","timestamp":"2025-02-04T19:34:33.849Z"}

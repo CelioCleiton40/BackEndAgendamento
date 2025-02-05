@@ -5,6 +5,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 import authRoutes from './routes/authRoutes';
 import aiRoutes from './routes/aiRoutes';
+import googleRoutes from "./routes/googleRoutes";
 import scheduleRoutes from './routes/scheduleRoutes';
 import { errorHandler } from './middlewares/errorHandler';
 import swaggerUi from 'swagger-ui-express';
@@ -22,6 +23,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(cors()); // Habilita CORS (pode ser configurado com opções específicas)
 
+
 // Logs de requisições (apenas em ambiente de desenvolvimento)
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
@@ -31,7 +33,7 @@ if (process.env.NODE_ENV === 'development') {
 app.use('/auth', authRoutes); // Rotas de autenticação
 app.use('/ai', aiRoutes);     // Rotas de IA
 app.use('/api', scheduleRoutes); // Rotas de agendamento
-
+app.use("/google", googleRoutes); // Rotas do Google
 // Configura Swagger (apenas em ambiente de desenvolvimento)
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(setupSwagger));
 

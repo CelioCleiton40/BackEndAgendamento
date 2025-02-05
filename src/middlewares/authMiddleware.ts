@@ -1,6 +1,10 @@
 import jwt from 'jsonwebtoken';
 import { Request, Response, NextFunction } from 'express';
 import logger from '../config/logger';
+import dotenv from 'dotenv';
+
+// Carrega as variáveis de ambiente
+dotenv.config();
 
 // Adiciona a interface para estender o tipo Request
 declare global {

@@ -3,6 +3,10 @@ import jwt from 'jsonwebtoken';
 import prisma from '../config/db';
 import { validateUser } from '../utils/validationUtils';
 import logger from '../config/logger';
+import dotenv from 'dotenv';
+
+// Carrega as variáveis de ambiente
+dotenv.config();
 
 /**
  * Registra um novo usuário no banco de dados.

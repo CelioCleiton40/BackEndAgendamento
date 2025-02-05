@@ -1,5 +1,9 @@
 import Queue from 'bull';
 import { createSchedule } from '../services/scheduleService';
+import dotenv from 'dotenv';
+
+// Carrega as variáveis de ambiente
+dotenv.config();
 
 const redisUrl = process.env.REDIS_URL || 'redis://127.0.0.1:6379';
 const scheduleQueue = new Queue('schedule', redisUrl);
